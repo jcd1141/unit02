@@ -2,6 +2,12 @@
 //IT 505
 //Football game simulator
 
+/*
+Running football.js will give a simulation
+of a football game with each team getting the 
+same amount of drives and random chances to 
+score.
+*/
 
 let teamAScore = 0;
 let teamBScore = 0;
@@ -98,6 +104,7 @@ while(drivesA!= 0 && drivesB!=0){
     currentDrive++;
 }
 
+//results
 console.log("Team A: " + teamAScore + " to Team B: " + teamBScore);
 if(teamAScore>teamBScore){
     console.log("Team A Wins!");
@@ -109,6 +116,7 @@ else{
     console.log("It's a tie.")
 }
 
+//stats
 console.log("=======Stats=======");
 console.log("QB A " + qbA + " TDs");
 console.log("QB B " + qbB + " TDs");
